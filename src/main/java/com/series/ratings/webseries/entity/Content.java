@@ -3,7 +3,6 @@ package com.series.ratings.webseries.entity;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;

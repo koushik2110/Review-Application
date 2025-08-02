@@ -1,14 +1,12 @@
 package com.series.ratings.webseries.service;
 
-import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.series.ratings.webseries.controller.ContentController;
+
 import com.series.ratings.webseries.entity.Content;
 import com.series.ratings.webseries.exception.NotFoundException;
 import com.series.ratings.webseries.repository.ContentRepository;
@@ -18,7 +16,6 @@ import com.series.ratings.webseries.response.ContentResponse;
 @Service
 public class ContentServiceImpl implements IContentService {
 
-	
 	@Autowired
 	public ContentRepository contentRepo;
 	
